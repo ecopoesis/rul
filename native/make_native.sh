@@ -5,6 +5,6 @@ if [[ $SL_BUILD_NATIVE == "false" ]]; then
 fi
 "$JAVA_HOME"/bin/native-image \
     --macro:truffle --no-fallback --initialize-at-build-time \
-    -cp ../language/target/simplelanguage.jar:../launcher/target/sl-launcher.jar \
-    com.oracle.truffle.sl.launcher.SLMain \
-    slnative
+    -cp ../language/target/rul.jar:../launcher/target/rul-launcher.jar \
+    org.miker.truffle.rul.launcher.RulMain \
+    rulnative

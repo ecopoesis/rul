@@ -13,5 +13,5 @@ graalvm/
 /Coco.jar
 component/sl-component.jar
 language/dependency-reduced-pom.xml
-native/slnative
+native/rulnative
 graal_dumps

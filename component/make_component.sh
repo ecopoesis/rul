@@ -21,7 +21,7 @@ mkdir -p "$LANGUAGE_PATH"
 cp ../language/target/simplelanguage.jar "$LANGUAGE_PATH"
 
 mkdir -p "$LANGUAGE_PATH/launcher"
-cp ../launcher/target/sl-launcher.jar "$LANGUAGE_PATH/launcher/"
+cp ../launcher/target/rul-launcher.jar "$LANGUAGE_PATH/launcher/"
 
 mkdir -p "$LANGUAGE_PATH/bin"
 cp ../sl $LANGUAGE_PATH/bin/
